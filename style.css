@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+*::selection{
+    background: skyblue;
+    color: red;
+    
+}
+.logo{
+    display: flex;
+}
+.hi{
+    color: red;
+    width: 40px;
+    height: 40px;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.hire{
+    margin-top: 10px;
+    margin-left: 5px;
+    color: red;
+}
+.top input{
+    display: none;
+}
+.top label{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 25px;
+    list-style: none;
+}
+.button span{
+    margin-top: 20px;
+    color: red;
+    border: 2px solid #cbc6c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+}
+.container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}    
+.box-one{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.njoftimefalas.com/upload/member/117847/15090510_medium_66550-1603053122_large_48230112_medium_sdRvnshw5uDy3tXjMXwnEm-1200-80.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.red-card{
+    background: #ff0000c6;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.cut{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+.box-two{
+    width: 50%;
+    height: 500px;
+    background: skyblue;
+    
+}
+.box-two .cut{
+    margin-bottom: 200px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.card span{
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.between{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+.center{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    background: url('https://www.architectureartdesigns.com/wp-content/uploads/2020/08/1560444802553.jpeg')no-repeat;
+    
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #ff0000c6;
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    color: white;
+}
+.box h4{
+    margin-top: 100px;
+}
+.box span{
+    color: white;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 10px;
+}
+.service{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bx{
+    width: 400px;
+    height: 450px;
+    background: #e6e2e2;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.bx img{
+    width: 100px;
+}
+.color{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.red{
+    width: 50%;
+    height: 200px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.red a{
+    font-size: 30px;
+}
+.skyblue a{
+    font-size: 30px;
+}
+.skyblue{
+    width: 50%;
+    height: 200px;
+    background: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.bottom span{
+    color: red;
+    border: 2px solid #cbc6c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    font-size: 14px;
+
+}
+.background{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e6e2e2;
+    margin-top: 100px;
+}
+.one{
+    
+}
+.two{
+    margin-left: 100px;
+}
+.three{
+    margin-left: 100px;
+}
+.four{
+    
+}
+.registration{
+    margin-left: 100px;
+}
+.send input{
+    width: 200px;
+    height: 30px;
+    border: 2px black solid;
+}
+.send button{
+    width: 70px;
+    height: 35px;
+    border: 2px black solid;
+    background: black;
+    color: white;
+}
+.logo i{
+    margin: 20px;
+}
+@media (max-width:768px) {
+    .logo{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    .button{
+        margin-left: 20px;
+    }
+    .hi{
+        
+        color: red;
+        width: 40px;
+        height: 40px;
+        border: 3px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .top{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .top label{
+        visibility: visible;
+        opacity: 1;
+        color: red;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .top .navbar{
+        position: absolute;
+        top: 40px; left: 0;
+        width: 100%;
+        background: #fff;
+        padding:1px 2px;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+        text-align: center;
+        height: 70px;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    nav li{
+        
+    }
+    .top label li{
+        display: block;
+        font-size: 10px;
+    }
+    .top input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+        
+    }
+    .top input:checked ~ label::before{
+        content: '\f00d';
+    }
+    .container{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        margin-top: 300px;
+    }    
+    .box-one{
+        width: 100%;
+        height: 500px;
+        background-image: url('https://www.njoftimefalas.com/upload/member/117847/15090510_medium_66550-1603053122_large_48230112_medium_sdRvnshw5uDy3tXjMXwnEm-1200-80.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .red-card{
+        background: #ff0000c6;
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        margin-top: -40px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .cut{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .box-two{
+        width: 100%;
+        height: 500px;
+        background: skyblue;
+        margin-top: 420px;
+        
+    }
+    .box-two .cut{
+        margin-bottom: 200px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 40px;
+    }
+    .card span{
+        color: white;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90px;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    .content{
+        width: 100%;
+        height: 900px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bx{
+        width: 200px;
+        height: 250px;
+        background: #e6e2e2;
+        margin: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .bx img{
+        width: 70px;
+    }
+    .color{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .red{
+        width: 100%;
+        height: 200px;
+        background: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .red a{
+        font-size: 30px;
+    }
+    .skyblue a{
+        font-size: 30px;
+    }
+    .skyblue{
+        width: 100%;
+        height: 200px;
+        background: skyblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .center{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image{
+        background: url('https://www.architectureartdesigns.com/wp-content/uploads/2020/08/1560444802553.jpeg')no-repeat;
+        
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        background: #ff0000c6;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        color: white;
+    }
+    .between{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 300px;
+        font-size: 17px;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 70px;
+        font-size: 10px;
+    }
+    .bottom span{
+        color: red;
+        border: 2px solid #cbc6c6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+    
+    }
+    .background{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        align-items: center;
+        background: #e6e2e2;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+    .one{
+        margin-top: 50px;
+    }
+    .two{
+        margin-top: 50px;
+        margin-right: 190px;
+    }
+    .three{
+        margin-top: 50px;
+        margin-right: 190px;
+    }
+    .registration{
+        margin-right: 70px;
+        margin-top: 50px;
+    }
+    .send input{
+        width: 150px;
+        height: 30px;
+        border: 2px black solid;
+    }
+    .send button{
+        width: 70px;
+        height: 35px;
+        border: 2px black solid;
+        background: black;
+        color: white;
+    }
+    .logo i{
+        color: black;
+        margin-top: 50px;
+    }
+}    
